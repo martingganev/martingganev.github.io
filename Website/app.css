@@ -1,0 +1,111 @@
+body {
+    font-family: "Nunito", sans-serif;
+    background-color: #f7f8f9;
+}
+#baseImage{
+    background-image: url("imgs/summer.jpg");
+    background-size: cover;
+    max-width: 100%;
+    height:50rem;
+}
+.blurb h2 {
+   color: #446da3;
+   font-weight: 100;
+   font-size: 2.5rem;
+}
+.header{
+    padding-top: 10rem;
+}
+.border-bottom-custom{
+    border-bottom: 3px solid #F3F9FA !important;
+}
+.first-letter{
+    font-size: 1.5rem;
+}
+#h-1{
+    font-size:4rem;
+    color:white;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+i {
+    font-size:5rem;
+    color:white;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+h3{
+    color:white;
+    font-size:3rem;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+.more-inf{
+    color:#2B82F1;
+    font-size: 1.25rem;
+}
+.lead{
+    text-align: justify;
+}
+.blurb p {
+    color: #76868e;
+    font-weight: 100;
+    font-size: 1.125rem;
+    line-height: 2;
+}
+
+.content {
+    margin-top: 50px;
+    padding-top: 50px; 
+}
+
+#mainNavbar {
+    font-size: 1.5rem;
+    font-weight: 100;    
+}
+
+#mainNavbar .nav-link {
+    color: white;
+}
+
+#mainNavbar .nav-link:hover {
+    color: #161377;
+}
+
+#mainNavbar .navbar-brand {
+    font-size: 1.5rem;
+}
+
+#mainNavbar .active{
+    color: #100d68;
+}
+
+#headingGroup span {
+    color: #161377;
+}
+
+#headingGroup h1 {
+    font-weight: 100;
+    font-size: 4rem;
+}
+
+.navbar.scrolled {
+    background: #d2dbe0;
+    transition: background 500ms;
+}
+@media (max-width: 1200px) {
+    #headingGroup h1 {
+        font-weight: 100;
+        font-size: 3rem;
+    }
+    .blurb h2 {
+        font-size: 2rem;
+    }
+}
+
+
+
+
